@@ -5,7 +5,7 @@ int main() {
     int A, B, sum_val = 0;
     cin >> A >> B;
 
-    if(A >= B)
+    if(A <= B)
     {
         for(int i = A; i <= B; i++)
         {
@@ -23,6 +23,6 @@ int main() {
     }
 
     cout << sum_val;
-    
+
     return 0;
 }
