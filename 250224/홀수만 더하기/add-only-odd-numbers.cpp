@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int N;
+    int N, sum_val = 0;
     cin >> N;
 
     for(int i = 0; i < N; i++)
@@ -15,5 +15,6 @@ int main() {
     }
 
     cout << sum_val;
+
     return 0;
 }
