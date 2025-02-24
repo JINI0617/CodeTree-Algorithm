@@ -2,10 +2,11 @@
 using namespace std;
 
 int main() {
+    
     int N, cnt = 0;
     cin >> N;
 
-    for(int i = 1; i++)
+    for(int i = 1; true; i++)
     {
         N /= i;
         cnt++;
