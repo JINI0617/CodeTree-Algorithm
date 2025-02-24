@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     
-    int N, cnt = 0;
+    int N;
     cin >> N;
 
     for(int i = 1; i <= N; i++)
@@ -11,10 +11,8 @@ int main() {
         if(i % 2 == 0 || i % 10 == 5 || i % 3 == 0 && i % 9 != 0)
             continue;
 
-        cnt++;
+        cout << i << " ";
     }
 
-    cout << cnt;
-    
     return 0;
 }
