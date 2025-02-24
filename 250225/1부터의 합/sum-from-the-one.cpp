@@ -11,7 +11,7 @@ int main(){
 
         if(sum >= N)
         {
-            cout << sum;
+            cout << i;
             break;
         }
     }
