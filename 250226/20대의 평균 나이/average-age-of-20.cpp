@@ -17,6 +17,6 @@ int main(){
     }
 
     cout << fixed;
-    cout.precision(2)
+    cout.precision(2);
     cout << (double)sum/cnt;
 }
