@@ -2,11 +2,13 @@
 using namespace std;
 
 int main(){
-    int a, b;
-    char c;
 
     while(true)
     {
+
+        int a, b;
+        char c;
+        
         cin >> a >> b >> c;
 
         cout << a*b << endl;
