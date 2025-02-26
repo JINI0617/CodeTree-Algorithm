@@ -14,9 +14,11 @@ int main(){
             n = n * 3 + 1;
         
         cnt++;
-        
+
         if(n == 1)
             break;
     }
+    cout << cnt;
+    
 
 }
