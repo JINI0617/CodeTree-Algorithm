@@ -9,11 +9,12 @@ int main(){
     {
         cin >> n;
 
+        if((n / 10) != 2)
+            break;
+            
         sum += n;
         cnt++;
 
-        if((n / 10) != 2)
-            break;
     }
 
     cout << fixed;
