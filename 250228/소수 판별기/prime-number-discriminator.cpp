@@ -5,7 +5,7 @@ int main() {
 
     int N;
     cin >> N;
-    satisfied = false;
+    bool satisfied = false;
 
     for(int i = 2; i <= N-1; i++)
     {
