@@ -8,7 +8,7 @@ int main() {
     for(int i = 0; i < N; i++)
     {
         for(int i = 0; i < M; i++)
-            cout << "*";
+            cout << "* ";
         cout << endl;
     }
     return 0;
