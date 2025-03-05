@@ -13,6 +13,18 @@ int main() {
                 cout << "*";
             cout << endl;
         }
+        cout << endl;
+    }
+    return 0;
+}
+
+
+        {
+            for(int i = 0; i < N; i++)
+                cout << "*";
+            cout << endl;
+        }
+        cout << endl;
     }
     return 0;
 }
