@@ -11,7 +11,7 @@ int main() {
         {
             if(cnt == 10)
                 cnt = 1;
-            cout << cnt << " ";
+            cout << cnt;
             cnt++;
         }
         cout << endl;
