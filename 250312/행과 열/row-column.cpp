@@ -5,9 +5,9 @@ int main() {
     int A, B;
     cin >> A >> B;
 
-    for(int i = 0; i < A; i++)
+    for(int i = 1; i <= A; i++)
     {
-        for(int j = 0; j < B; j++)
+        for(int j = 1; j <= B; j++)
         {
             cout << i*j << " ";
         }
