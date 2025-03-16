@@ -2,22 +2,40 @@
 using namespace std;
 
 int main() {
-    int A, B;
-    cin >> A >> B;
+
+    int cnt_arr[4] = {};
+    char s;
+    int t;
+    int type_num; 
+
+    for(int i = 0; i < 3; i++)
+    {
+        cin >> s >> t;
+
+        if(s == 'Y')
+        {
+            if(t >= 37)
+                type_num = 0;
+            else
+                type_num = 1;
+        }
+        else
+        {
+            if(t >= 37)
+                type_num = 2;
+            else   
+                type_num = 3;
+        }
+
+        cnt_arr[type_num]++;
+    }
+
+    for(int i = 0; i < 4; i++)
+        cout << cnt_arr[i] << " ";
     
-    int cnt_arr[B] = {}; // 나머지는 B보다 작으므로 충분히 작은 배열 사용 가능
-    int sum_val = 0;
+    if(cnt_arr[0] >= 2)
+        cout << "E";
+    
 
-    while (A >= 1) {  
-        int remainder = A % B;  // 나머지 계산
-        cnt_arr[remainder]++;   // 해당 나머지 카운트 증가
-        A /= B;                 // 몫 갱신
-    }
-
-    for (int i = 0; i < 10; i++) {
-        sum_val += cnt_arr[i] * cnt_arr[i]; // 각 나머지 등장 횟수의 제곱 합
-    }
-
-    cout << sum_val;
     return 0;
 }
