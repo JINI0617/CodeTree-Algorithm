@@ -19,7 +19,7 @@ int main() {
             else
                 type_num = 1;
         }
-        else
+        else if(s == 'N')
         {
             if(t >= 37)
                 type_num = 2;
