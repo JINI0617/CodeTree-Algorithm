@@ -16,12 +16,12 @@ int main() {
             if(t >= 37)
                 cnt_arr[0]++;
             else
-                cnt_arr[1]++;
+                cnt_arr[2]++;
         }
         else
         {
             if(t >= 37)
-                cnt_arr[2]++;
+                cnt_arr[1]++;
             else   
                 cnt_arr[3]++;
         }
