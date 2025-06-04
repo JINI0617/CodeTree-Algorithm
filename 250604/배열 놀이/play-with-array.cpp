@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int N, Q, question, a, b, s, e, idx = -1;
+    int N, Q, question, a, b, s, e;
     cin >> N >> Q;
 
     int arr[N];
@@ -22,6 +22,7 @@ int main() {
         else if(question == 2)
         {
             cin >> b;
+            int idx = -1;
             for(int i = 0; i < N; i++)
             {
                 if(arr[i] == b)
