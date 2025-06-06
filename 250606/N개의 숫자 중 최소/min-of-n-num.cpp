@@ -12,10 +12,14 @@ int main() {
     for(int i = 0; i < N; i++)
     {
         cin >> arr[i];
+    }
 
+    for(int i = 0; i < N; i++)
+    {
         if(min_val > arr[i])
             min_val = arr[i];
     }
+
 
     for(int i = 0; i < N; i++)
     {
